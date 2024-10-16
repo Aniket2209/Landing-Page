@@ -1,0 +1,85 @@
+*{
+    font: Roboto;
+}
+
+.Header-Logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.a, .footer, .Header{
+    background-color: #1f2937;
+    display: flex;
+}
+
+.Header {
+    justify-content: space-between;
+}
+
+.Hero-Main-Text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.Hero-secondary-text, .HL{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up_button{
+    background-color: #3882f6;
+    padding: 5px;
+}
+
+.b, .b1, .b2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.b{
+    flex-direction: column;
+}
+
+.Information-Header-Text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.c {
+    background-color: #e5e7eb;
+}
+
+.Quote-Section {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.Quote-author{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.d{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Call-to-action, .text{
+    color:#f9faf8;
+}
+
+.footer {
+    justify-content: center;
+    color: #f9faf8;
+    padding: 20px;
+}
